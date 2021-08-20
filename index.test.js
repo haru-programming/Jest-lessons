@@ -28,13 +28,24 @@ describe("toNumber", () => {
     test('converts "7日" to equal 7', () => {
         expect(toNumber("7日", 10)).toBe(7);
     });
+
+    test('converts "fruit" to equal NaN', () => {
+        expect(toNumber("fruit", 10)).toBe(NaN);
+    });
 })
 
 
 //Q3
 
-const fruit = ["orange", "apple", "peach"];
+describe("filterOrange", () => {
 
-test('Check if the array contains orange', () => {
-    expect(filterOrange(fruit)).toContain("orange");
-});
+    test('if the array contains orange, return new array in orange', () => {
+        const fruit = ["orange", "apple", "peach"];
+        expect(filterOrange(fruit)).toContain("orange");
+    });
+
+    test('if the array not contains orange, return an empty array', () => {
+        const fruit = ["grape", "apple", "peach"];
+        expect(filterOrange(fruit)).toEqual([]);
+    });
+})
