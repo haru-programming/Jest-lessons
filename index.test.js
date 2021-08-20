@@ -33,8 +33,8 @@ describe("toNumber", () => {
 
 //Q3
 
-    const fruit = ["orange", "apple", "peach"];
+const fruit = ["orange", "apple", "peach"];
 
-    test('Check if the array contains orange', () => {
-        expect(filterOrange(fruit)).toContain("orange");
-    });
+test('Check if the array contains orange', () => {
+    expect(filterOrange(fruit)).toContain("orange");
+});
