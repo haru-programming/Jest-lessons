@@ -1,0 +1,27 @@
+{
+    "name": "jest-lessons",
+    "version": "1.0.0",
+    "description": "This is an assignment for Moriken Juku's Jest study group. - Jest study group, [hands-on　document](https://github.com/kenmori/handsonFrontend/blob/feature/48/jest/work.md) - Thank you [Mr.Moriken](https://kenjimorita.jp/)!",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/haru-programming/Jest-lessons.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/haru-programming/Jest-lessons/issues"
+    },
+    "homepage": "https://github.com/haru-programming/Jest-lessons#readme",
+    "devDependencies": {
+      "@babel/core": "^7.15.0",
+      "@babel/plugin-transform-modules-commonjs": "^7.15.0",
+      "@babel/preset-env": "^7.15.0",
+      "babel-core": "^7.0.0-bridge.0",
+      "babel-jest": "^27.0.6",
+      "jest": "^27.0.6"
+    }
+}
